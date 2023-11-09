@@ -1,0 +1,18 @@
+@media screen and (max-width:920px){
+    .nav i {
+    opacity: 1;
+    }
+
+    .home-content{
+        margin-top: 130px;
+        line-height: 25px;
+    }
+    .home-content h1{
+        font-size: 37px;
+    }
+    
+    .nav-lists{
+       opacity: 0;
+        
+    }
+}
