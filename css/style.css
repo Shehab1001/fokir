@@ -1,0 +1,65 @@
+  
+/* .counter {
+    font-size: 5rem;
+    color: #ff6347;
+} */
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family:"Roboto",sans-serif;
+}
+/*Home Section*/
+
+.home {
+  background-image: url('/images/heroimg.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: 100% 100%;
+  background-size: cover;
+
+}
+
+
+
+.dark-layer{
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-logo{
+  float: left;
+  margin:20px;
+}
+.nav-logo a {
+  text-decoration: none;
+}
+
+.nav {
+  margin: auto;
+  width: 80%;
+}
+
+.nav-lists ul{
+  list-style-type: none;
+
+  float: right;
+}
+.nav-lists ul li {
+  float:left;
+  margin: 2vh;
+}
+
+.nav-lists ul li a {
+  text-decoration: none;
+}
+
+
+h1{
+  font-family: "Source Sans Pro",sans-serif;
+  color: white;
+}
