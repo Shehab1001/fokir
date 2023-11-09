@@ -503,6 +503,10 @@ body{
   background-color: rgb(255, 48, 91);
   padding: 14px 25px 14px 25px;
   margin: 8px;
+  transition: 1s all;
+}
+.btn:hover{
+  background-color: rgb(255, 38, 0);
 }
 .btn a {
   text-decoration: none;
@@ -513,6 +517,7 @@ body{
 .btn i {
   font-size: 20px;
 }
+
 
 /*Global clear*/
 .clear{
