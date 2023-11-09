@@ -613,7 +613,7 @@ h3{
 /*Portfolio section*/
 
 .portfolio{
-  height: 100vh;
+  height: 150vh;
 }
 
 .portfolio-cap{
@@ -649,6 +649,75 @@ h3{
   height: 1px;
   width: 180px;
 }
+
+
+
+
+.portfolio-container{
+  margin: auto;
+  padding-top: 100px;
+  width: 90%;
+
+}
+
+.portfolio-img{
+  width: 33%;
+  float: left;
+  margin-bottom: 35px;
+}
+
+.portfolio-img img {
+  width:95%;
+}
+
+.portfolio-list{
+  margin:auto;
+  padding-top: 50px;
+  width: 45%;
+}
+.portfolio-list ul {
+  list-style-type: none;
+  
+}
+
+.portfolio-list ul a{
+  text-decoration: none;
+  color: #000;
+  transition: 0.5s all;
+  font-size: 20px;
+}
+
+.portfolio-list ul a:hover{
+  color: #ff305b;
+}
+
+.portfolio-list ul li {
+  float: left;
+  margin: 10px;
+  padding: 0 20px 0 20px;
+}
+
+
+
+/*Test Section*/
+
+
+.test{
+  background-color: rgb(241, 241, 241);
+  height: 50vh;
+}
+
+.testing-container{
+  width: 80%;
+  margin: auto;
+}
+
+.testing{
+  float: left;
+  margin: 90px;  
+}
+
+
 
 
 /*Global clear*/
