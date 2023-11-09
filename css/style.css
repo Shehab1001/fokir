@@ -33,6 +33,7 @@ body{
   margin-top: 30px;
   float: right;
   opacity: 0;
+
 }
 
 .nav-logo{
@@ -501,7 +502,7 @@ body{
   border-style: none;
   border-radius: 5px;
   background-color: rgb(255, 48, 91);
-  padding: 14px 25px 14px 25px;
+  padding: 9px 30px 9px 30px;
   margin: 8px;
   transition: 1s all;
 }
@@ -512,6 +513,7 @@ body{
   text-decoration: none;
   color: white;
   font-size: 17px;
+ 
 }
 
 .btn i {
@@ -538,14 +540,77 @@ body{
   font-size: 40px;
   font-weight: 800;
   text-align: center;
-  border-bottom: 1px solid rgb(255, 48, 91);
+  position: relative;
+  padding-bottom: 30px;
+}
+.service-cap h2::after, .service-cap h2::before{
+  content: "";
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+}
+.service-cap h2:before {
+  content: "";
+  border-color: #ff305b;
+  border-style: solid;
+  border-width: 1px 0;
   bottom: 0;
+  padding: 4px 0 5px;
+  width: 80px;
 }
 
-
+.service-cap h2:after {
+  background-color: #ff305b;
+  bottom: 5px;
+  height: 1px;
+  width: 180px;
+}
 
 /*Global clear*/
 .clear{
   clear: both;
 }
 
+
+
+i {
+  color: #ff305b;
+  display: block;
+  font-size: 36px;
+  margin-bottom: 20px;
+  transition: 0.7s all;
+}
+
+.services-container{
+  margin: auto;
+  padding: 50px;
+  width: 85%;
+
+}
+.services-container p {
+  width: 90%;
+  margin: auto;
+  line-height: 30px;
+}
+h3{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.service{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  float: left;
+  width: 25%;
+  transition: 0.7s all;
+}
+
+.service:hover{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service:hover i{
+  transform: scale(1.2);
+}
