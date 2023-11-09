@@ -455,6 +455,17 @@ body{
 .about-cap p {
   width: 85%;
   line-height: 30px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.about-cap p::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-bottom: 1px dashed #000;
 }
 
 /*Global clear*/
