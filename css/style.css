@@ -468,6 +468,33 @@ body{
   border-bottom: 1px dashed #000;
 }
 
+.list-container ul {
+  list-style-type: none;
+  padding: 10px 7px;
+}
+
+
+.list-container ul li{
+  padding:7px;
+}
+.label {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.value {
+  color: #7E7E7E;
+  font-size: 18px;
+
+}
+
+.list-right{
+  float: right;
+  margin-right: 150px;
+}
+.list-left{
+  float: left;
+}
 /*Global clear*/
 .clear{
   clear: both;
