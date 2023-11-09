@@ -21,10 +21,7 @@ body{
   background-position: center;
   background-size: 100% 100%;
   background-size: cover;
-
 }
-
-
 
 .dark-layer{
   height: 100vh;
@@ -34,9 +31,13 @@ body{
 .nav-logo{
   float: left;
   margin:20px;
+
 }
 .nav-logo a {
   text-decoration: none;
+  font-weight: 700;
+  font-size: 4vh;
+  color: rgb(255, 48, 91);
 }
 
 .nav {
@@ -46,8 +47,8 @@ body{
 
 .nav-lists ul{
   list-style-type: none;
-
   float: right;
+  margin-top: 10px;
 }
 .nav-lists ul li {
   float:left;
@@ -56,10 +57,18 @@ body{
 
 .nav-lists ul li a {
   text-decoration: none;
+  color: white;
 }
 
-
+.home-content{
+  text-align: center;
+  color: white;
+}
 h1{
   font-family: "Source Sans Pro",sans-serif;
-  color: white;
+  color: rgb(255, 48, 91);
+}
+
+.clear{
+  clear: both;
 }
