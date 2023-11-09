@@ -412,6 +412,7 @@ body{
   
 }
 
+
 /*About Section*/
 
 .about{
@@ -475,7 +476,7 @@ body{
 
 
 .list-container ul li{
-  padding:7px;
+  padding:10px;
 }
 .label {
   font-weight: 500;
@@ -495,6 +496,24 @@ body{
 .list-left{
   float: left;
 }
+
+.btn {
+  border-style: none;
+  border-radius: 5px;
+  background-color: rgb(255, 48, 91);
+  padding: 14px 25px 14px 25px;
+  margin: 8px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.btn i {
+  font-size: 20px;
+}
+
 /*Global clear*/
 .clear{
   clear: both;
