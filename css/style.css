@@ -721,7 +721,7 @@ h3{
 /*feedback section*/
 
 .feedback{
-  height: 100vh;
+  height: 90vh;
 }
 
 .feedback .portfolio-cap h2 {
@@ -786,6 +786,16 @@ h4{
   font-size: 18px;
   color: gold;
 }
+
+/*Blog Section*/
+
+.blog{
+  height: 100vh;
+  background-color: rgb(241, 241, 241);
+}
+
+
+
 
 /*Global clear*/
 .clear{
