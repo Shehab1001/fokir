@@ -61,14 +61,352 @@ body{
 }
 
 .home-content{
+  margin-top: 190px;
   text-align: center;
   color: white;
+  line-height: 40px;
 }
-h1{
+.home-content h1{
   font-family: "Source Sans Pro",sans-serif;
   color: rgb(255, 48, 91);
+  font-size: 63px;
+  font-weight: 700;
+  font-stretch: 100%;
+  line-height:77px;
 }
 
+.home-content .p-top {
+  font-size: 25px;
+  font-weight: 500;
+  
+}
+.home-content .p-bottom {
+  font-size: 25px;
+  font-weight: 100;
+  
+}
+
+.p-bottom::after{
+  content: "";
+  animation: title 10s infinite;
+
+}
+
+@keyframes title {
+  0%{
+    content: '|';
+  }
+  1%{
+    content: 'D|';
+  }
+  2%{
+    content: 'De|';
+  }
+  3%{
+    content: 'Dev|';
+  }
+  4%{
+    content: 'Deve|';
+  }
+  5%{
+    content: 'Devel|';
+  }
+  6%{
+    content: 'Develo|';
+  }
+  7%{
+    content: 'Develop|';
+  }
+  8%{
+    content: 'Develope|';
+  }
+  9%{
+    content: 'Developer|';
+  }
+  10%{
+    content: 'Develope|';
+  }
+  11%{
+    content: 'Develop|';
+  }
+  12%{
+    content: 'Develo|';
+  }
+  13%{
+    content: 'Devel|';
+  }
+  14%{
+    content: 'Deve|';
+  }
+  15%{
+    content: 'Dev|';
+  }
+  16%{
+    content: 'De|';
+  }
+  17%{
+    content: 'D|';
+  }
+  18%{
+    content: '|';
+  }
+  19%{
+    content: '|';
+  }
+  20%{
+    content: 'D|';
+  }
+  21%{
+    content: 'De|';
+  }
+  22%{
+    content: 'Des|';
+  }
+  23%{
+    content: 'Desi|';
+  }
+  24%{
+    content: 'Desig|';
+  }
+  25%{
+    content: 'Design|';
+  }
+  26%{
+    content: 'Designe|';
+  }
+  27%{
+    content: 'Designer|';
+  }
+  28%{
+    content: 'Designer|';
+  }
+  29%{
+    content: 'Designe|';
+  }
+  30%{
+    content: 'Design|';
+  }
+  31%{
+    content: 'Desig|';
+  }
+  32%{
+    content: 'Desi|';
+  }
+  33%{
+    content: 'Des|';
+  }
+  34%{
+    content: 'De|';
+  }
+  35%{
+    content: 'D|';
+  }
+  36%{
+    content: '|';
+  }
+  37%{
+    content: 'D|';
+  }
+  38%{
+    content: 'De|';
+  }
+  39%{
+    content: 'Dev|';
+  }
+  40%{
+    content: 'Deve|';
+  }
+  41%{
+    content: 'Devel|';
+  }
+  42%{
+    content: 'Develo|';
+  }
+  43%{
+    content: 'Develop|';
+  }
+  44%{
+    content: 'Develope|';
+  }
+  45%{
+    content: 'Developer|';
+  }
+  46%{
+    content: 'Develope|';
+  }
+  47%{
+    content: 'Develop|';
+  }
+  48%{
+    content: 'Develo|';
+  }
+  49%{
+    content: 'Devel|';
+  }
+  50%{
+    content: 'Deve|';
+  }
+  51%{
+    content: 'Dev|';
+  }
+  52%{
+    content: 'De|';
+  }
+  53%{
+    content: 'D|';
+  }
+  54%{
+    content: '|';
+  }
+  55%{
+    content: '|';
+  }
+  56%{
+    content: 'D|';
+  }
+  57%{
+    content: 'De|';
+  }
+  58%{
+    content: 'Des|';
+  }
+  59%{
+    content: 'Desi|';
+  }
+  60%{
+    content: 'Desig|';
+  }
+  61%{
+    content: 'Design|';
+  }
+  62%{
+    content: 'Designe|';
+  }
+  63%{
+    content: 'Designer|';
+  }
+  64%{
+    content: 'Designe|';
+  }
+  65%{
+    content: 'Design|';
+  }
+  66%{
+    content: 'Desig|';
+  }
+  67%{
+    content: 'Desi|';
+  }
+  68%{
+    content: 'Des|';
+  }
+  69%{
+    content: 'De|';
+  }
+  70%{
+    content: 'D|';
+  }
+  71%{
+    content: '|';
+  }
+  72%{
+    content: '|';
+  }
+  73%{
+    content: 'D|';
+  }
+  74%{
+    content: 'De|';
+  }
+  75%{
+    content: 'Dev|';
+  }
+  76%{
+    content: 'Deve|';
+  }
+  77%{
+    content: 'Devel|';
+  }
+  78%{
+    content: 'Develo|';
+  }
+  79%{
+    content: 'Develop|';
+  }
+  80%{
+    content: 'Develope|';
+  }
+  81%{
+    content: 'Developer|';
+  }
+  82%{
+    content: 'Develope|';
+  }
+  83%{
+    content: 'Develop|';
+  }
+  84%{
+    content: 'Develo|';
+  }
+  85%{
+    content: 'Devel|';
+  }
+  86%{
+    content: 'Deve|';
+  }
+  87%{
+    content: 'Dev|';
+  }
+  88%{
+    content: 'De|';
+  }
+  89%{
+    content: 'D|';
+  }
+  90%{
+    content: '|';
+  }
+  91%{
+    content: '|';
+  }
+  92%{
+    content: 'D|';
+  }
+  93%{
+    content: 'De|';
+  }
+  94%{
+    content: 'Des|';
+  }
+  95%{
+    content: 'Desi|';
+  }
+  96%{
+    content: 'Desig|';
+  }
+  97%{
+    content: 'Design|';
+  }
+  98%{
+    content: 'Designe|';
+  }
+  99%{
+    content: 'Designer|';
+  }
+  100%{
+    content: 'Designe|';
+  }
+  
+}
+
+
+
+
+
+
+
+/*Global clear*/
 .clear{
   clear: both;
 }
+
