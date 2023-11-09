@@ -790,11 +790,66 @@ h4{
 /*Blog Section*/
 
 .blog{
-  height: 100vh;
+  height: 115vh;
   background-color: rgb(241, 241, 241);
 }
 
+.blog-container{
+  padding-top: 50px;
+  margin: auto;
+  width: 90%;
+}
 
+.single-blog{
+  margin:25px ;
+  float: left;
+  width: 400px;
+  height: 530px;
+  background-color: white;
+  
+}
+
+.blog-img img {
+  width: 100%;
+}
+.blog-img iframe{
+  width: 100%;
+  height: 225px;
+}
+
+
+.blog-content{
+  width: 85%;
+  margin: auto;
+  line-height: 30px;
+}
+
+.blog-content p {
+  padding-top: 10px;
+ padding-bottom: 15px;
+ font-size: 17px;
+ color: #524e4e;
+}
+
+.blog-content button {
+  border-style: none;
+  background-color: transparent;
+}
+
+
+.blog-content button a{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  color: #000;
+  transition: 0.5s all;
+  
+}
+
+.blog-content button a:hover{
+
+  color:#ff305b;
+}
 
 
 /*Global clear*/
