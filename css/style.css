@@ -718,7 +718,74 @@ h3{
 }
 
 
+/*feedback section*/
 
+.feedback{
+  height: 100vh;
+}
+
+.feedback .portfolio-cap h2 {
+  margin-bottom: 50px;
+}
+
+.fdback-box{
+  width: 60%;
+  height: 300px;
+  margin: auto;
+  background-color: rgb(241, 241, 241);
+  overflow: hidden;
+  position: relative;
+}
+
+.fdback-rotate{
+  border-color: #ff305b rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 191px;
+  left: -199px;
+  position: absolute;
+
+}
+
+.fd-img{
+  border-radius: 100%;
+  z-index: 1;
+  position: absolute;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.fd-content{
+  z-index: 2;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.fd-content h3 {
+  font-size: 30px;
+  font-weight: 450;
+}
+h4{
+  color: grey;
+}
+.fd-content h4 i {
+  color: grey;
+  font-size: 20px;
+}
+
+.fd-content p {
+  font-size: 18px;
+  width: 84%;
+  color: #524e4e;
+}
+.rating{
+  margin-top:40px;
+}
+.rating i{
+  font-size: 18px;
+  color: gold;
+}
 
 /*Global clear*/
 .clear{
